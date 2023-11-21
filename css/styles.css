@@ -1,8 +1,12 @@
 .weblogo {
-    color: var(--IRIS, #ff0000);
+    color: var(--IRIS, #4D5AE5);
 
 }
 
 .studiologo {
     color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.logo {
+
 }
