@@ -106,7 +106,7 @@ body {
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-    
+
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -114,5 +114,6 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-    color: var(--WHITE, #FFF);2
+    color: var(--WHITE, #FFF);
+    background-color: var(--OCEAN);
 }
