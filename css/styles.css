@@ -10,3 +10,27 @@
 .logo {
 
 }
+
+.hero-bg-sec1 { 
+    background: var(--NAVY-BLUE, #2E2F42);
+
+}
+
+.bg-sec1-title {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: 1.12px;
+
+}
+.order-button {
+    color: var(--WHITE, #FFF);
+    background: var(--IRIS, #4D5AE5);
+    font-family: inherit;
+    
+    
+}
