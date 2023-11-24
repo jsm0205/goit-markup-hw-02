@@ -1,7 +1,7 @@
 :root {
     --IRIS: #4D5AE5;
     --OCEAN: #404BBF;
-    --NAVY-BLUE: #2E2F42;
+    --NAVYBLUE: #2E2F42;
     --WHITE: #FFF;
     --SLATE: #434455;
     --CORNFLOWER: #E7E9FC;
@@ -36,54 +36,78 @@ body {
 }
 
 .studiologo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVYBLUE, #2E2F42);
 }
 
 .linkpage {
     text-decoration: none;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--NAVYBLUE, #2E2F42);
     font-weight: 500;
 }
 
 .linkpage:hover, 
 .linkpage:focus {
-    color: var(--ocea)
+    color: var(--OCEAN, #2E2F42)
+}
+
+.link-active {
+    color: var(--OCEAN, #404BBF);
 }
 
 .contacts {
-    text-transform: none;
+    color: var(--SLATE, #434455);
+    text-decoration: none;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
 
-
-.hero-bg-sec1 { 
-    background: var(--NAVY-BLUE, #2E2F42);
+.hero-bg { 
+    background: var(--NAVYBLUE, #2E2F42);
+    margin: 0%;
+    padding: 0%;
 
 }
 
-.bg-sec1-title {
+.bg-title {
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 1.12px;
-
+    text-transform: uppercase;
+    
 }
+
 .order-button {
     cursor: pointer;
     color: var(--WHITE, #FFF);
+    background: var(--IRIS, #4D5AE5);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.64px;
+    
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    
     border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
 }
